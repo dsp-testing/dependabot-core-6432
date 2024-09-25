@@ -370,10 +370,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/lodash@npm:^4.14.159, @types/lodash@npm:^4.14.189":
+"@types/lodash@npm:^4.14.159":
   version: 4.14.189
   resolution: "@types/lodash@npm:4.14.189"
   checksum: 096d1e0954794fb76bd6a0ea443067f02004b53e3c59ac6e3fed88817a1468fc2e6614abdf44341f5e0fdff5f9a3c94a934cc9ff7126e07efbcd94355a21fe45
+  languageName: node
+  linkType: hard
+
+"@types/lodash@npm:^4.17.9":
+  version: 4.17.9
+  resolution: "@types/lodash@npm:4.17.9"
+  checksum: 6d1bf3e77f0a54d97532755a74260d402d8972259c5451b74612c16cb983b73e0760e5bfe4f9e68ab15051511c867812b40715a01f9805afe6bc36c7dd676378
   languageName: node
   linkType: hard
 
@@ -3514,7 +3521,7 @@ __metadata:
   resolution: "my-project@workspace:project"
   dependencies:
     "@graphprotocol/graph-cli": ^0.33.1
-    "@types/lodash": ^4.14.189
+    "@types/lodash": ^4.17.9
   languageName: unknown
   linkType: soft
 
